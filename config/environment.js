@@ -2,6 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
+    socrata: { dataRepo: 'data.cityofchicago.org' },
     modulePrefix: 'cta-ridership',
     environment: environment,
     baseURL: '/',
